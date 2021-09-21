@@ -20,7 +20,7 @@ public class Main {
         company.startProject(new PHPProgram(5000, "PHP average project"));
 
         company.makeTeamsAndAllocateProjects();
-        company.makeAllCurrentProjects(); //
+        company.makeAllCurrentProjects();
 
 
 
