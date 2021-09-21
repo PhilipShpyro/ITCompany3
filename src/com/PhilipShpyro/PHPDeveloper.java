@@ -8,7 +8,7 @@ public class PHPDeveloper extends Developer {
 
     @Override
     public TechnologyType getTechnologyType() {
-        return TechnologyType.JAVA;
+        return TechnologyType.PHP;
     }
 
     @Override
