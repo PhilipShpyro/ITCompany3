@@ -1,5 +1,7 @@
 package com.PhilipShpyro;
 
+import sun.security.ec.point.ProjectivePoint;
+
 import java.util.ArrayList;
 import java.util.TreeSet;
 
@@ -24,8 +26,7 @@ public class Company {
         developers.add(developer);
     }
 
-    public void startProject(int size, String name) {
-        Program program = new Program(size, name);
+    public void startProject(Program program) {
         projects.add(program);
     }
 

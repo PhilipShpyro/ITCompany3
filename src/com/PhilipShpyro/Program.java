@@ -1,24 +1,14 @@
 package com.PhilipShpyro;
 
-public class Program {
+public abstract class Program implements ITechnology {
     private int size;
     private ProgramStatus status;
     private String name;
 
-    public Program(int size) {
+    public Program(int size, String name) {
         this.size = size;
         status = ProgramStatus.NOT_STARTED;
-    }
-
-    public Program(int size, String name) {
-        this(size);
         this.name = name;
-    }
-
-    public void setName(String name) {
-        if (this.name == null) {
-            this.name = name;
-        }
     }
 
     public String getName() {

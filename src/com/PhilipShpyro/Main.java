@@ -9,9 +9,9 @@ public class Main {
             company.hireDeveloper(new Developer(getRandomInt()));
         }
 
-        company.startProject(10000, "biggest");
-        company.startProject(2222, "smallest");
-        company.startProject(2435, "almost smallest");
+        company.startProject(new JavaProgram(10000, "biggest"));
+        company.startProject(new JavaProgram(2222, "smallest"));
+        company.startProject(new JavaProgram(2435, "almost smallest"));
 
         company.makeTeamsAndAllocateProjects();
 
