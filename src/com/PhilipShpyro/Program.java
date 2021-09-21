@@ -26,4 +26,8 @@ public abstract class Program implements ITechnology {
     public int getSize() {
         return size;
     }
+
+    public int getCost() {
+        return getSize() / 2;
+    }
 }
