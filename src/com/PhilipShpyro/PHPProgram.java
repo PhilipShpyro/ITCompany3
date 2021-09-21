@@ -8,6 +8,6 @@ public class PHPProgram extends Program{
 
     @Override
     public TechnologyType getTechnologyType() {
-        return TechnologyType.JAVA;
+        return TechnologyType.PHP;
     }
 }
