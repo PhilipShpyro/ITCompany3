@@ -1,17 +1,17 @@
 package com.PhilipShpyro;
 
 public class Seniority {
-    int level;
+    private int speed;
 
-    public Seniority(int level) {
-        if (level < 1 || level > 1000) {
-            throw new IllegalArgumentException("Seniority level must be in range from 1 to 1000.");
+    public Seniority(int speed) {
+        if (speed < 1 || speed > 1000) {
+            throw new IllegalArgumentException("Work speed must be in range from 1 to 1000.");
         }
 
-        this.level = level;
+        this.speed = speed;
     }
 
-    public int getLevel() {
-        return level;
+    public int getSpeed() {
+        return speed;
     }
 }

@@ -4,13 +4,18 @@ import java.util.ArrayList;
 
 public class Team {
     private Company company;
-    private ArrayList<Developer> developers = new ArrayList<>();
+    private ArrayList<Employee> employees = new ArrayList<>();
     private int teamSpeed;
     private Program project;
 
-    public void addDeveloper(Developer developer) {
-        developers.add(developer);
-        teamSpeed += developer.getSpeed();
+    public void addEmployee(Employee employee) {
+        employees.add(employee);
+        teamSpeed += employee.getSpeed();
+    }
+
+    public void removeEmployee(Employee employee) {
+        employees.remove(employee);
+        teamSpeed -= employee.getSpeed();
     }
 
     public Team(Program project) {
@@ -22,7 +27,7 @@ public class Team {
         return teamSpeed;
     }
 
-    public synchronized void work() {
+    public synchronized Program makeProject() {
         project.setStatus(ProgramStatus.IN_PROCESS);
         System.out.println("Project " + project.getName() + " started. We need to wait " + (project.getSize() / teamSpeed) + " seconds...");
 
@@ -32,8 +37,10 @@ public class Team {
             e.printStackTrace();
         }
 
-        System.out.println("Project " + project.getName() + " created...");
+        System.out.println("Project " + project.getName() + " completed...");
 
         project.setStatus(ProgramStatus.FINISHED);
+
+        return project;
     }
 }
