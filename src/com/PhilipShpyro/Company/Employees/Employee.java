@@ -1,6 +1,6 @@
-package com.PhilipShpyro;
+package com.PhilipShpyro.Company.Employees;
 
-import java.util.Optional;
+import com.PhilipShpyro.Company.Technologies.ITechnology;
 
 public abstract class Employee implements ITechnology, IEmployee {
     private String firstName, lastName;

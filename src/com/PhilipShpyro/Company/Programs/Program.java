@@ -1,4 +1,6 @@
-package com.PhilipShpyro;
+package com.PhilipShpyro.Company.Programs;
+
+import com.PhilipShpyro.Company.Technologies.ITechnology;
 
 public abstract class Program implements ITechnology {
     private int size;

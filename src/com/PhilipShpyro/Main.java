@@ -1,5 +1,8 @@
 package com.PhilipShpyro;
 
+import com.PhilipShpyro.Company.Company;
+import com.PhilipShpyro.Company.Employees.CodeWriters.*;
+
 public class Main {
 
     public static void main(String[] args) {

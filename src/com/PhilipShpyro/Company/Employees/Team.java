@@ -1,5 +1,10 @@
-package com.PhilipShpyro;
+package com.PhilipShpyro.Company.Employees;
 
+import com.PhilipShpyro.Company.Company;
+import com.PhilipShpyro.Company.Technologies.ITechnology;
+import com.PhilipShpyro.Company.Programs.Program;
+import com.PhilipShpyro.Company.Programs.ProgramStatus;
+import com.PhilipShpyro.Company.Technologies.TechnologyType;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 

@@ -1,4 +1,7 @@
-package com.PhilipShpyro;
+package com.PhilipShpyro.Company.Employees.CodeWriters;
+
+import com.PhilipShpyro.Company.Employees.EmployeeType;
+import com.PhilipShpyro.Company.Technologies.TechnologyType;
 
 public class PHPDeveloper extends Developer {
 
@@ -8,7 +11,7 @@ public class PHPDeveloper extends Developer {
 
     @Override
     public TechnologyType getTechnologyType() {
-        return TechnologyType.PHP;
+        return TechnologyType.JAVA;
     }
 
     @Override

@@ -1,4 +1,11 @@
-package com.PhilipShpyro;
+package com.PhilipShpyro.Company;
+
+import com.PhilipShpyro.Company.Technologies.TechnologyType;
+import com.PhilipShpyro.Company.Employees.Team;
+import com.PhilipShpyro.Company.Employees.Employee;
+import com.PhilipShpyro.Company.Employees.EmployeeType;
+import com.PhilipShpyro.Company.Programs.Program;
+import com.PhilipShpyro.Company.Programs.ProgramStatus;
 
 import java.util.ArrayList;
 import java.util.List;

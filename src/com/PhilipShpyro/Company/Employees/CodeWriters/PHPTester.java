@@ -1,6 +1,9 @@
-package com.PhilipShpyro;
+package com.PhilipShpyro.Company.Employees.CodeWriters;
 
-public class PHPTester extends Tester{
+import com.PhilipShpyro.Company.Employees.EmployeeType;
+import com.PhilipShpyro.Company.Technologies.TechnologyType;
+
+public class PHPTester extends Tester {
     public PHPTester(String firstName, String lastName, int speed) {
         super(firstName, lastName, speed);
     }

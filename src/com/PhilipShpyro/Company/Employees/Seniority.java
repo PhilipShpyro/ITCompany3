@@ -1,4 +1,4 @@
-package com.PhilipShpyro;
+package com.PhilipShpyro.Company.Employees;
 
 public class Seniority {
     private int speed;

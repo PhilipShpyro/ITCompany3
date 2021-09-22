@@ -1,4 +1,4 @@
-package com.PhilipShpyro;
+package com.PhilipShpyro.Company.Programs;
 
 public enum ProgramStatus {
     FINISHED,
